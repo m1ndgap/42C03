@@ -6,7 +6,7 @@
 /*   By: tchumbas <tchumbas@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 15:37:42 by tchumbas          #+#    #+#             */
-/*   Updated: 2025/08/10 15:34:34 by tchumbas         ###   ########.fr       */
+/*   Updated: 2025/08/10 18:42:42 by tchumbas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,4 +62,12 @@ int	ft_strcmp(char *s1, char *s2)
 
 	printf("Mine: Default:\n%d %d\n%d %d\n%d %d\n%d %d\n", test1, ctrl1, test2,
 		ctrl2, test3, ctrl3, test4, ctrl4);
+} */
+
+/* int	main(void){
+	char *x;
+	
+	x = "asdasdasd";
+
+	char y[15] = "asdsad";
 } */
