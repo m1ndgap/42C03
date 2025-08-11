@@ -6,7 +6,7 @@
 /*   By: tchumbas <tchumbas@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/10 18:26:20 by tchumbas          #+#    #+#             */
-/*   Updated: 2025/08/11 17:38:54 by tchumbas         ###   ########.fr       */
+/*   Updated: 2025/08/11 17:40:08 by tchumbas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,7 @@ unsigned int	ft_strlcat(char *dest, char *src, unsigned int size)
 	while (i < size)
 	{
 		if (dest[i] != '\0')
-		{
 			i++;
-		}
 		else if (dest[i] == '\0')
 		{
 			while (size < lentotal)

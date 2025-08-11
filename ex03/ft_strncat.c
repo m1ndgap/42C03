@@ -1,29 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncat.c                                        :+:      :+:    :+:   */
+/*   ft_strncat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tchumbas <tchumbas@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/11 11:05:47 by tchumbas          #+#    #+#             */
-/*   Updated: 2025/08/11 12:10:47 by tchumbas         ###   ########.fr       */
+/*   Updated: 2025/08/11 17:40:46 by tchumbas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-/* The  strcat()  function  appends  the  src  string to the dest string,
-overwriting the terminating null byte ('\0') at the end of dest and then adds a terminating null byte.  The strings may not overlap and the dest
-string  must  have  enough  space  for  the result.  If dest is not large enough,
-program behavior is unpredictable; buffer overruns are a favorite avenue for attacking secure programs.
-
-		The strncat() function is similar, except that
-
-		*  it will use at most n bytes from src; and
-
-		*  src does not need to be null-terminated if it contains n or more bytes.
-
-		As with strcat() the resulting string in dest is always null-terminated.
-
-The	strcat(void) and strncat() functions return a pointer to the resulting string dest.*/
 
 /* #include <stdio.h>
 #include <string.h>
