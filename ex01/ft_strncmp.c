@@ -6,7 +6,7 @@
 /*   By: tchumbas <tchumbas@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/07 15:37:42 by tchumbas          #+#    #+#             */
-/*   Updated: 2025/08/10 17:30:59 by tchumbas         ###   ########.fr       */
+/*   Updated: 2025/08/11 12:11:40 by tchumbas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,6 @@
 		equal to,
 	or greater than zero if s1 (or the first n bytes thereof) is found,
 	respectively, to be less than, to match, or be greater than s2. */
-
-/* #include <stdio.h>
-#include <string.h>
-#include <unistd.h> */
 
 int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
@@ -32,14 +28,14 @@ int	ft_strncmp(char *s1, char *s2, unsigned int n)
 		}
 		i++;
 	}
-	if (n <= 0)
-	{
-		return (0);
-	}
 	return (0);
 }
 
-/* int	main(void)
+/* #include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+
+int	main(void)
 {
 	char *str1 = "I'm a string";
 	char *str2 = "I'm a strung";
